@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <script src="./src/js/index.js" type="module" defer></script>
+
+</head>
+<body class="bg-zinc-900 box-border">
+     <header class="h-20 w-auto flex justify-end">
+         <div class="flex flex-row justify-center items-center gap-3 px-4">
+            <a href="#" class="text-white text-sm/[15px] hover:underline">Gmails</a>
+            <a href="#" class="text-white text-sm/[15px] hover:underline">Imagens</a>
+
+            <button id="button-all" class="hover:bg-[#ffffff57] rounded-full p-1">
+                <img class="size-7 invert" src="./src/img/al-icon.png" alt="Icon All">
+            </button>
+            <button class="rounded-full h-8 w-8 bg-transparent hover:bg-[#ffffff57]">
+                <img src="./src/img/my-image.jpg" alt="My Image" class="rounded-full">
+            </button>
+     </header>
+     <section class="section-search">
+        <div class="flex flex-col justify-center items-center">
+            <img src="./src/img/google_logo.svg" alt="Image Google" class="mt-20 w-[272px]">
+
+            <div class="mt-9 flex flex-row gap-5 px-4 justify-center items-center max-w-[561px] h-11 rounded-full bg-white">
+                <div class="icon-search">
+                    <img src="./src/img/icon_search.svg" alt="Icon search">
+                </div>
+                <form action="#" id="searchForm" class="md:w-[450px] h-11">
+                    <input type="text" placeholder="Pesquise no Google ou digite URL" id="search" class="w-full h-11 outline-none block">
+                </form>
+                <button type="button">
+                    <img src="/src/img/icon-phone.svg" alt="Button camera">
+                </button>
+                <button type="button">
+                    <img src="./src/img/icon-camera.svg" alt="Button" class="w-6">
+                </button>
+            </div>
+        </div>
+     </section>
+</body>
+</html>
